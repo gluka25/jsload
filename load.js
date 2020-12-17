@@ -13,7 +13,7 @@ export let options = {
             executor: 'constant-arrival-rate',
             rate: 60,
             timeUnit: '1m', // 90 iterations per minute, i.e. 1.5 RPS
-            duration: '10s',
+            duration: '11s',
             preAllocatedVUs: 10, // the size of the VU (i.e. worker) pool for this scenario
             exec: 'contacts', // this scenario is executing different code than the one above!
         },
